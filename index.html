@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080c11">
+  <meta name="description" content="Portfólio de Ravi. Identidades para lives, cenas, overlays, painéis, alertas e emotes em pixel art. Discord: Mollyx3.">
+  <title>Ravi — Design para lives & emotes</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <script src="alerts.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#trabalhos">Ir para os trabalhos</a>
+  <header class="site-header">
+    <a class="wordmark" href="#inicio" aria-label="Ravi, início">Ravi<span class="wordmark-dot" aria-hidden="true"></span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#trabalhos">Trabalhos</a><a href="#emotes">Emotes</a><a href="#contato">Contato <svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero page-width" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">A sua live,<br>com <span>identidade.</span></h1>
+        <p>Sou Ravi. Crio artes para dar personalidade ao seu canal: de cenas e painéis a alertas e emotes.</p>
+        <a class="text-link hero-link" href="#trabalhos">Explore os trabalhos <svg aria-hidden="true"><use href="#arrow-right"/></svg></a>
+        <div class="hero-signature"><span>Ravi</span><span>Design para lives<br>Discord · Mollyx3</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-screen">
+          <video id="hero-video" poster="assets/vamp-iniciando.webp" muted loop playsinline preload="metadata" aria-label="Prévia animada da abertura do projeto Pack Vamp"></video>
+          <button class="motion-control" id="motion-control" type="button" aria-label="Reproduzir animação"><svg aria-hidden="true"><use href="#play"/></svg></button>
+        </div>
+        <div class="hero-art-caption"><span>Pack Vamp</span><button class="text-link" type="button" data-project="vamp" data-index="0">Ver projeto <svg aria-hidden="true"><use href="#arrow-up-right"/></svg></button></div>
+        <div class="hero-emote hero-emote-one"><img src="assets/emote-01.png" width="200" height="200" alt="Emote em pixel art segurando um coração"></div>
+        <div class="hero-emote hero-emote-two"><img src="assets/emote-17.png" width="200" height="200" alt="Emote de festa em pixel art"></div>
+      </div>
+    </section>
+
+    <section class="work-section page-width" id="trabalhos" aria-labelledby="work-title">
+      <div class="section-heading"><h2 id="work-title">Trabalhos que<br>entram em cena.</h2><p>Projetos com uma linguagem própria,<br>do primeiro olhar ao último detalhe.</p></div>
+      <div class="project-grid">
+        <article class="project">
+          <button class="project-art" type="button" data-project="henrique" data-index="0" aria-label="Abrir galeria do projeto Henrique">
+            <img src="assets/henrique-offline.webp" width="1672" height="941" loading="lazy" alt="Tela offline de Henrique com personagem de cabelos prateados, lua vermelha e castelo">
+            <span class="open-art" aria-hidden="true"><svg><use href="#arrow-up-right"/></svg></span>
+          </button>
+          <div class="project-caption"><div><h3>Henrique</h3><p>Identidade visual · Cenas · Painéis</p></div><button class="project-open" type="button" data-project="henrique" data-index="0" aria-label="Ver projeto Henrique"><svg aria-hidden="true"><use href="#arrow-up-right"/></svg></button></div>
+          <div class="panel-strip" aria-label="Alguns painéis de Henrique">
+            <button type="button" data-project="henrique" data-index="4" aria-label="Ampliar painel Me siga"><img src="assets/henrique-siga.webp" width="320" height="118" loading="lazy" alt="Painel Me siga"></button>
+            <button type="button" data-project="henrique" data-index="5" aria-label="Ampliar painel Setup"><img src="assets/henrique-setup.webp" width="320" height="80" loading="lazy" alt="Painel Setup"></button>
+            <button type="button" data-project="henrique" data-index="6" aria-label="Ampliar painel Sobre mim"><img src="assets/henrique-sobre.webp" width="320" height="118" loading="lazy" alt="Painel Sobre mim"></button>
+          </div>
+        </article>
+        <article class="project project-vamp">
+          <button class="project-art" type="button" data-project="vamp" data-index="0" aria-label="Abrir galeria do projeto Pack Vamp">
+            <img src="assets/vamp-iniciando.webp" width="1672" height="941" loading="lazy" alt="Abertura de live do Pack Vamp, com personagem, estética gótica e composição em vermelho e preto">
+            <span class="open-art" aria-hidden="true"><svg><use href="#arrow-up-right"/></svg></span>
+          </button>
+          <div class="project-caption"><div><h3>Pack Vamp</h3><p>Cenas animadas · Overlays · Painéis</p></div><button class="project-open" type="button" data-project="vamp" data-index="0" aria-label="Ver projeto Pack Vamp"><svg aria-hidden="true"><use href="#arrow-up-right"/></svg></button></div>
+          <div class="project-actions"><button class="text-link" type="button" data-project="vamp" data-index="8"><svg aria-hidden="true"><use href="#play"/></svg> Assistir abertura</button><button class="text-link" type="button" data-project="vamp" data-index="9">Assistir encerramento <svg aria-hidden="true"><use href="#arrow-up-right"/></svg></button></div>
+        </article>
+        <article class="project project-fall">
+          <div class="fall-intro"><h3>Fall</h3><p>Um outro ritmo para a live.<br>Luz quente, um espaço acolhedor e cenas com clima de descanso.</p><button class="text-link" type="button" data-project="fall" data-index="0">Explore as cenas <svg aria-hidden="true"><use href="#arrow-up-right"/></svg></button></div>
+          <button class="project-art" type="button" data-project="fall" data-index="0" aria-label="Abrir galeria do projeto Fall"><img src="assets/fall-quarto.webp" width="1672" height="941" loading="lazy" alt="Cena ilustrada de um quarto acolhedor, com duas personagens, gato, iluminação quente e referências de streaming"><span class="open-art" aria-hidden="true"><svg><use href="#arrow-up-right"/></svg></span></button>
+        </article>
+      </div>
+    </section>
+
+    <section class="emote-section" id="emotes" aria-labelledby="emote-title">
+      <div class="page-width emote-layout">
+        <div class="emote-copy"><h2 id="emote-title">Pequenos pixels.<br>Grandes reações.</h2><p>Carinho, caos, festa e aquele lurk. Uma coleção de 18 emotes para dar voz ao chat.</p><p class="emote-note">Clique em um emote<br>para ver de pertinho.</p></div>
+        <div class="emote-grid" id="emote-grid" aria-label="Galeria de emotes em pixel art">
+          <button class="emote-tile" type="button" data-emote="0" aria-label="Ampliar emote Cora&#231;&#227;o"><img src="assets/emote-01.png" width="200" height="200" loading="lazy" alt="Cora&#231;&#227;o"></button>
+          <button class="emote-tile" type="button" data-emote="1" aria-label="Ampliar emote Soninho"><img src="assets/emote-02.png" width="200" height="200" loading="lazy" alt="Soninho"></button>
+          <button class="emote-tile" type="button" data-emote="2" aria-label="Ampliar emote Estilo"><img src="assets/emote-03.png" width="200" height="200" loading="lazy" alt="Estilo"></button>
+          <button class="emote-tile" type="button" data-emote="3" aria-label="Ampliar emote Companheiro"><img src="assets/emote-04.png" width="200" height="200" loading="lazy" alt="Companheiro"></button>
+          <button class="emote-tile" type="button" data-emote="4" aria-label="Ampliar emote Lurk"><img src="assets/emote-05.png" width="200" height="200" loading="lazy" alt="Lurk"></button>
+          <button class="emote-tile" type="button" data-emote="5" aria-label="Ampliar emote Brava"><img src="assets/emote-06.png" width="200" height="200" loading="lazy" alt="Brava"></button>
+          <button class="emote-tile" type="button" data-emote="6" aria-label="Ampliar emote Paz"><img src="assets/emote-07.png" width="200" height="200" loading="lazy" alt="Paz"></button>
+          <button class="emote-tile" type="button" data-emote="7" aria-label="Ampliar emote Dancinha"><img src="assets/emote-08.png" width="200" height="200" loading="lazy" alt="Dancinha"></button>
+          <button class="emote-tile" type="button" data-emote="8" aria-label="Ampliar emote Arco-&#237;ris"><img src="assets/emote-09.png" width="200" height="200" loading="lazy" alt="Arco-&#237;ris"></button>
+          <button class="emote-tile" type="button" data-emote="9" aria-label="Ampliar emote Chorando"><img src="assets/emote-10.png" width="200" height="200" loading="lazy" alt="Chorando"></button>
+          <button class="emote-tile" type="button" data-emote="10" aria-label="Ampliar emote Hora do ch&#225;"><img src="assets/emote-11.png" width="200" height="200" loading="lazy" alt="Hora do ch&#225;"></button>
+          <button class="emote-tile" type="button" data-emote="11" aria-label="Ampliar emote Carinho"><img src="assets/emote-12.png" width="200" height="200" loading="lazy" alt="Carinho"></button>
+          <button class="emote-tile" type="button" data-emote="12" aria-label="Ampliar emote Dupla"><img src="assets/emote-13.png" width="200" height="200" loading="lazy" alt="Dupla"></button>
+          <button class="emote-tile" type="button" data-emote="13" aria-label="Ampliar emote Irritada"><img src="assets/emote-14.png" width="200" height="200" loading="lazy" alt="Irritada"></button>
+          <button class="emote-tile" type="button" data-emote="14" aria-label="Ampliar emote Uma ideia"><img src="assets/emote-15.png" width="200" height="200" loading="lazy" alt="Uma ideia"></button>
+          <button class="emote-tile" type="button" data-emote="15" aria-label="Ampliar emote Sorriso"><img src="assets/emote-16.png" width="200" height="200" loading="lazy" alt="Sorriso"></button>
+          <button class="emote-tile" type="button" data-emote="16" aria-label="Ampliar emote Festa"><img src="assets/emote-17.png" width="200" height="200" loading="lazy" alt="Festa"></button>
+          <button class="emote-tile" type="button" data-emote="17" aria-label="Ampliar emote Beijo"><img src="assets/emote-18.png" width="200" height="200" loading="lazy" alt="Beijo"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="alert-section page-width" id="alertas" aria-labelledby="alert-title">
+      <div class="alert-art" id="alert-stage" data-preview-state="idle">
+        <img src="assets/alerta-moldura.webp" width="1536" height="1024" loading="lazy" alt="Moldura de alerta de Henrique, com personagem, lua vermelha e ornamentos góticos dourados">
+        <div class="alert-sample" aria-hidden="true"><span>Obrigado pelos</span><strong>100 BITS</strong><span>Seu nome</span></div>
+        <iframe id="alert-preview" class="alert-preview" src="assets/alert-preview/index.html" title="Demonstração animada dos alertas de Henrique" sandbox="allow-scripts" aria-hidden="true" tabindex="-1"></iframe>
+      </div>
+      <div class="alert-copy">
+        <h2 id="alert-title">Até o alerta<br>tem personalidade.</h2>
+        <p>Veja os alertas em ação: revoada de morcegos no Sub, chuva de cristais nos Bits e entradas para Follow e Donate.</p>
+        <div class="alert-events" role="group" aria-label="Demonstrar um alerta">
+          <button type="button" data-alert="follow" aria-pressed="false" disabled>Follow</button>
+          <button type="button" data-alert="sub" aria-pressed="false" disabled>Sub</button>
+          <button type="button" data-alert="donate" aria-pressed="false" disabled>Donate</button>
+          <button type="button" data-alert="bits" aria-pressed="false" disabled>Bits</button>
+        </div>
+        <div class="alert-playback" role="group" aria-label="Reprodução da demonstração">
+          <button type="button" id="alert-pause" disabled>Pausar</button>
+          <button type="button" id="alert-replay" disabled>Repetir</button>
+          <button type="button" id="alert-stop" disabled>Parar</button>
+        </div>
+        <div class="alert-options">
+          <label><input type="checkbox" id="alert-sound" checked> Com som</label>
+          <label><input type="checkbox" id="alert-reduced"> Reduzir movimento</label>
+        </div>
+        <p class="alert-status" id="alert-status" role="status">Carregando demonstração…</p>
+        <img class="bats" src="assets/alerta-morcegos.webp" width="2172" height="724" loading="lazy" alt="Três poses de morcegos em pixel art">
+        <p class="sample-note">Prévia interativa do pacote V14. Nome e valores ilustrativos.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato" aria-labelledby="contact-title">
+      <div class="page-width contact-layout"><div><h2 id="contact-title">Vamos criar<br>a próxima cena?</h2><p>Me conte sua ideia pelo Discord.</p></div><div class="contact-handle"><span>Discord</span><strong id="discord-handle">Mollyx3</strong><button id="copy-discord" class="copy-button" type="button">Copiar usuário <svg aria-hidden="true"><use href="#copy"/></svg></button><p id="copy-status" role="status"></p></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer page-width"><a class="wordmark" href="#inicio">Ravi<span class="wordmark-dot" aria-hidden="true"></span></a><p>Artes para lives & emotes</p><a href="#inicio">Voltar ao topo <svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></footer>
+
+  <dialog id="art-viewer" aria-labelledby="viewer-title">
+    <div class="viewer-shell"><div class="viewer-top"><div><span id="viewer-project"></span><h2 id="viewer-title"></h2></div><button class="icon-button" id="viewer-close" type="button" aria-label="Fechar visualização"><svg aria-hidden="true"><use href="#close"/></svg></button></div><div class="viewer-media" id="viewer-media"></div><div class="viewer-bottom"><button class="icon-button" id="viewer-prev" type="button" aria-label="Arte anterior"><svg aria-hidden="true"><use href="#arrow-left"/></svg></button><p id="viewer-position" role="status"></p><button class="icon-button" id="viewer-next" type="button" aria-label="Próxima arte"><svg aria-hidden="true"><use href="#arrow-right"/></svg></button></div><p class="viewer-hint">Use as setas para explorar e Esc para fechar.</p></div>
+  </dialog>
+
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="arrow-up-right" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="arrow-right" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+    <symbol id="arrow-left" viewBox="0 0 24 24"><path d="M20 12H4m6-6-6 6 6 6"/></symbol>
+    <symbol id="play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></symbol>
+    <symbol id="pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V4H4v12h4"/></symbol>
+    <symbol id="volume" viewBox="0 0 24 24"><path d="m11 5-6 4H2v6h3l6 4Zm4 3a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></symbol>
+  </defs></svg>
+</body>
+</html>

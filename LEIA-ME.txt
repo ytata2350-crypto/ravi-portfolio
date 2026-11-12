@@ -1,0 +1,31 @@
+PORTFÓLIO RAVI
+Discord: Mollyx3
+
+COMO ABRIR
+Extraia toda a pasta do arquivo ZIP e abra index.html no navegador.
+Mantenha style.css, app.js e a pasta assets junto do HTML.
+Não é preciso instalar programas nem executar uma compilação.
+
+RECURSOS
+Galerias dos projetos Henrique, Pack Vamp e Fall.
+18 emotes em pixel art, com ampliação ao clicar.
+Prévias dos vídeos originais e alertas animados do pacote V14.
+Teste Follow, Sub, Donate e Bits. Pause, continue, repita ou pare a animação.
+Use "Com som" para ativar o áudio e "Reduzir movimento" para uma prévia estática.
+Botão para copiar o contato no Discord.
+
+Na galeria, use as setas para trocar de arte e Esc para fechar.
+Os sons dos alertas começam somente após um clique. O navegador pode limitar a
+reprodução automática de vídeos; use o botão de reprodução nesse caso.
+Se a cópia do Discord for bloqueada, o nome ficará selecionado para copiar.
+
+As cores predominantes da página são ciano e preto.
+As artes mantêm suas cores originais.
+
+CRÉDITOS
+Artes fornecidas por Ravi para compor este portfólio.
+Oswald: The Oswald Project Authors. Licença SIL Open Font License 1.1
+incluída em assets/OFL.txt e assets/FONT-LICENSE.txt.
+Cinzel: licença incluída em assets/alert-preview/OFL-Cinzel.txt.
+Animações adaptadas do pacote StreamElements-V14-LivePix-AlertBox fornecido.
+São demonstrações locais; não há conexão com contas StreamElements ou LivePix.
