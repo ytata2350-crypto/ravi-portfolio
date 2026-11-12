@@ -1,0 +1,35 @@
+/* CSS / alert preview / motion controls and reduced-motion presentation */
+html, body, #viewport {
+  color-scheme: dark;
+  background: #080c11 !important;
+}
+html[data-paused="true"] *, html[data-paused="true"] *::before, html[data-paused="true"] *::after {
+  animation-play-state: paused !important;
+}
+html[data-reduced="true"] * {
+  animation: none !important;
+  transition: none !important;
+}
+html[data-reduced="true"] #ritual.show #frame-art,
+html[data-reduced="true"] #ritual.show #copy,
+html[data-reduced="true"] #ritual.show #hero-value {
+  opacity: 1;
+  transform: none;
+  filter: none;
+  clip-path: none;
+}
+html[data-reduced="true"] #bats,
+html[data-reduced="true"] #bits-fx,
+html[data-reduced="true"] .ember,
+html[data-reduced="true"] .aura,
+html[data-reduced="true"] .seal,
+html[data-reduced="true"] .blade {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+  #ritual.show #frame-art, #ritual.show #copy, #ritual.show #hero-value {
+    opacity: 1; transform: none; filter: none; clip-path: none;
+  }
+  #bats, #bits-fx, .ember, .aura, .seal, .blade { display: none; }
+}

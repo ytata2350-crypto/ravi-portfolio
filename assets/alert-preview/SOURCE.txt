@@ -1,0 +1,9 @@
+Adapted from the user-supplied StreamElements-V14-LivePix-AlertBox pack. Original frame, pixel sprites, geometry and motion timings retained. Local portfolio demonstration; no live account connection. Cinzel extracted from the supplied CSS; license included.
+
+Source SHA-256:
+{
+  "1-CUSTOM-WIDGET/HTML.txt": "499bc93790e5ab3089a5bba40bff6ccd7db5605ca9da20840c38b1d67c62697a",
+  "1-CUSTOM-WIDGET/CSS.txt": "43dc509a52509fda6adfc25ff0062ce547ad1d7f419133eb27075817cb0d7fe1",
+  "1-CUSTOM-WIDGET/JS.txt": "9c5cddda443c67c4e46f216bca488bf1c428e80a59341e7acea4e59eaf1e8fc5",
+  "2-DONATE-ALERTBOX/CSS.txt": "86724539a391ca0b022dfc154cb7bf6e4d700ee99fe2016211ddcba3597d9e77"
+}
